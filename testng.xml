@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="TestWW" verbose="1">
 <test name="testSchedule">
-<parameter name="day" value="SUN" />
+<parameter name="day" value="WED" />
 <classes>
 <class name="ww.assessment.TestWWSite">
 </class>

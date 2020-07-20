@@ -21,7 +21,7 @@ public class HomePage {
 	public void clickOnWorkShop() {
 		workShopLink.click();
 	}
-	
+
 	public String getTitle() {
 		return driver.getTitle();
 	}

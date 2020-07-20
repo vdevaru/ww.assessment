@@ -1,8 +1,5 @@
 package pages;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Map;
 
 import org.openqa.selenium.WebDriver;
@@ -16,7 +13,6 @@ public class WorkshopLocation {
 
 	@FindBy(className = "locationName-1jro_")
 	WebElement locationPageName;
-	
 
 	public WorkshopLocation(WebDriver driver) {
 
@@ -28,11 +24,6 @@ public class WorkshopLocation {
 	public String getTextLocation() {
 		return locationPageName.getText();
 	}
-	
-	public Map<String,Integer> getMeeting(Integer day){
-		
-		return null;
-		
-	}
+
 
 }

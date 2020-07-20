@@ -86,14 +86,6 @@ public class TestWWSite {
 		}
 	}
 
-	public static void CallWait(int i) {
-		try {
-			Thread.sleep(i);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-
-	}
 
 	@Test(priority = 2)
 	public void searchlocation() {
@@ -123,7 +115,6 @@ public class TestWWSite {
 	public void printMeeting(String day) {
 		Map<String, Integer> countMap = new HashMap<String, Integer>();
 		int dayNo = 0;
-//		String day1 = "THU";
 		switch (day.toUpperCase()) {
 		case "SUN":
 			dayNo = 1;
@@ -188,7 +179,6 @@ public class TestWWSite {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 		driver.quit();
 	}
 
